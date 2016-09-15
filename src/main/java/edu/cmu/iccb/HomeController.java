@@ -35,6 +35,11 @@ public class HomeController {
         model.addAttribute("files", imageIds);     
         return "uploadForm";
     }
+    
+    @RequestMapping(method = RequestMethod.GET, value = "/github")
+    public String authenticate() {
+        return "redirect:https://github.com/login/oauth/authorize?client_id=f5ea592521783953af76";
+    }
 
     @RequestMapping(method = RequestMethod.POST, value = "/images")
     public String handleFileUpload(@RequestParam("file") MultipartFile file,
