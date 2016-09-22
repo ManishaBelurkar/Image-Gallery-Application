@@ -43,6 +43,8 @@ dependencies {
     compile("commons-io:commons-io:2.4")
     compile('com.amazonaws:aws-java-sdk-s3')
     testCompile("junit:junit")
+    compile('org.springframework.boot:spring-boot-starter-security')
+    compile('org.springframework.security.oauth:spring-security-oauth2:2.0.11.RELEASE')
 }
 
 task wrapper(type: Wrapper) {

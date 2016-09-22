@@ -1,4 +1,4 @@
 ---
 applications:
-- name: image-gallery-0.1.0
-  path: ./build/libs
+- name: natt-manisha-hw3
+  path: C:/Users/Manisha/Image-Gallery-Application/build/libs
