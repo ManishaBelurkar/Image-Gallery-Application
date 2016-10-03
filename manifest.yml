@@ -1,4 +1,4 @@
 ---
 applications:
 - name: natt-manisha-hw3
-  path: C:/Users/Manisha/Image-Gallery-Application/build/libs
+  path: ./build/libs
