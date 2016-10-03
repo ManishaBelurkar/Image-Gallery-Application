@@ -1,6 +1,7 @@
 language: java
 jdk: oraclejdk8
 deploy:
+  edge: true
   provider: cloudfoundry
   api: https://api.run.pivotal.io
   username: manisha.belurkar@gmail.com
