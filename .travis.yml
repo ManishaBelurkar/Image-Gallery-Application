@@ -1,0 +1,8 @@
+deploy:
+   edge: true
+   provider: cloudfoundry
+   username: manisha.belurkar@gmail.com
+   password: Tinku!41
+   api: https://api.run.pivotal.io
+   organization: manisha.belurkar-org
+   space: development
